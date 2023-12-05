@@ -1,0 +1,10 @@
+CRITICAL - 2023-04-26 12:34:50 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody()
+#3 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(97): CodeIgniter\HTTP\Response->setJSON()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

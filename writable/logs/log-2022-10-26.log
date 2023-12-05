@@ -1,0 +1,217 @@
+CRITICAL - 2022-10-26 01:35:41 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:35:47 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:35:52 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:35:57 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:02 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:07 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:12 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:17 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:22 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:27 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:32 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:38 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:43 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:48 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:53 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:36:58 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:37:03 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:37:08 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:37:13 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:37:18 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:37:23 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+CRITICAL - 2022-10-26 01:37:24 --> fopen(/dev/tty0): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/app/Controllers/Timbang.php(708): fopen()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#7 {main}
+ERROR - 2022-10-26 01:47:14 --> Session: Unable to obtain lock for file '/var/www/html/astraagrolestari-weightbridge/writable/session/ci_sessionm8eqpv06as5go5r0rvs1r0pvbhtrlo0j'.
+CRITICAL - 2022-10-26 01:47:14 --> session_start(): Failed to read session data: user (path: /var/www/html/astraagrolestari-weightbridge/writable/session)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Session/Session.php(898): session_start()
+#2 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#3 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#4 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#5 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#6 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance()
+#7 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Common.php(904): CodeIgniter\Config\BaseService::__callStatic()
+#9 /var/www/html/astraagrolestari-weightbridge/app/Filters/UsersAuthFilter.php(209): session()
+#10 /var/www/html/astraagrolestari-weightbridge/app/Filters/UsersAuthFilter.php(194): App\Filters\UsersAuthFilter::isGuest()
+#11 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Filters/Filters.php(169): App\Filters\UsersAuthFilter->before()
+#12 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run()
+#13 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#14 /var/www/html/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#15 /var/www/html/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/a...')
+#16 {main}

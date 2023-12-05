@@ -1,0 +1,21 @@
+ERROR - 2023-05-16 14:50:36 --> Duplicate entry 'SPP1P1230517018' for key 'tr_wb.PRIMARY'
+CRITICAL - 2023-05-16 22:34:20 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody()
+#3 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(97): CodeIgniter\HTTP\Response->setJSON()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-16 23:32:30 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody()
+#3 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(649): CodeIgniter\HTTP\Response->setJSON()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->writeKab()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

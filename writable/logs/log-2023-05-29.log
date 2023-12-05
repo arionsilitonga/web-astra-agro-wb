@@ -1,0 +1,6 @@
+ERROR - 2023-05-29 00:07:42 --> Duplicate entry 'SPP1P1230529100' for key 'tr_wb.PRIMARY'
+ERROR - 2023-05-29 01:01:02 --> Duplicate entry 'SPP1P1230529109' for key 'tr_wb.PRIMARY'
+ERROR - 2023-05-29 02:58:44 --> Duplicate entry 'SPP1P1230529140' for key 'tr_wb.PRIMARY'
+ERROR - 2023-05-29 02:58:44 --> Duplicate entry 'SPP1P1230529140-48:E1:AC:36;;SPP1;2905231231;1;1;OA;013;K036;NJF' for key 'tr_kab.chitnocvalue'
+ERROR - 2023-05-29 02:58:48 --> Duplicate entry 'SPP1P1230529140' for key 'tr_wb.PRIMARY'
+ERROR - 2023-05-29 02:58:48 --> Duplicate entry 'SPP1P1230529140-48:E1:AC:36;;SPP1;2905231231;1;1;OA;013;K036;NJF' for key 'tr_kab.chitnocvalue'

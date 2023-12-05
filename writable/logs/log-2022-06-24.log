@@ -1,0 +1,405 @@
+ERROR - 2022-06-24 03:41:50 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:41:50 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:41:50 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:41:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:45:52 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:45:52 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:45:52 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:45:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:45:55 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:45:55 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:45:55 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:45:55 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:46:07 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:46:07 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:46:07 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:46:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:46:16 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:46:16 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:46:16 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:46:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:53:17 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:53:17 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:53:17 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:53:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:54:17 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:54:17 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:54:17 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:54:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:55:32 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:55:32 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:55:32 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:55:32 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:57:55 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:57:55 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:57:55 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:57:55 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:58:28 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:58:28 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:58:28 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:58:28 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:58:38 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:58:38 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:58:38 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:58:38 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 03:58:42 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:58:42 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 03:58:42 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 03:58:42 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:04:16 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 04:04:16 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 04:04:16 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 04:04:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:04:24 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 04:04:24 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 04:04:24 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 04:04:24 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:06:20 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 04:06:20 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 04:06:20 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 04:06:20 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:07:33 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 04:07:33 --> Unknown column 'tr_wb.weightnet' in 'field list'
+ERROR - 2022-06-24 04:07:33 --> Unknown column 'tr_wb.weightnet' in 'field list'
+CRITICAL - 2022-06-24 04:07:33 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:10:46 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:10:46 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:10:46 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+CRITICAL - 2022-06-24 04:10:46 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:10:53 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:10:53 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:10:53 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+CRITICAL - 2022-06-24 04:10:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:11:49 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:11:49 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:11:49 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+CRITICAL - 2022-06-24 04:11:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:12:03 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:12:03 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:12:03 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+CRITICAL - 2022-06-24 04:12:03 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:12:08 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:12:08 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+ERROR - 2022-06-24 04:12:08 --> Unknown column 'tr_wb.weightnet' in 'group statement'
+CRITICAL - 2022-06-24 04:12:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:12:44 --> Table 'sai1wb.tr_wbs' doesn't exist
+ERROR - 2022-06-24 04:12:44 --> Table 'sai1wb.tr_wbs' doesn't exist
+ERROR - 2022-06-24 04:12:44 --> Table 'sai1wb.tr_wbs' doesn't exist
+CRITICAL - 2022-06-24 04:12:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:12:47 --> Table 'sai1wb.tr_wbs' doesn't exist
+ERROR - 2022-06-24 04:12:47 --> Table 'sai1wb.tr_wbs' doesn't exist
+ERROR - 2022-06-24 04:12:47 --> Table 'sai1wb.tr_wbs' doesn't exist
+CRITICAL - 2022-06-24 04:12:47 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:13:05 --> Table 'sai1wb.tr_wbs' doesn't exist
+ERROR - 2022-06-24 04:13:05 --> Table 'sai1wb.tr_wbs' doesn't exist
+ERROR - 2022-06-24 04:13:05 --> Table 'sai1wb.tr_wbs' doesn't exist
+CRITICAL - 2022-06-24 04:13:05 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:13:10 --> Table 'sai1wb.tr_wbs' doesn't exist
+ERROR - 2022-06-24 04:13:10 --> Table 'sai1wb.tr_wbs' doesn't exist
+ERROR - 2022-06-24 04:13:10 --> Table 'sai1wb.tr_wbs' doesn't exist
+CRITICAL - 2022-06-24 04:13:10 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:19:48 --> Table 'sai1wb.tr_kafb' doesn't exist
+ERROR - 2022-06-24 04:19:48 --> Table 'sai1wb.tr_kafb' doesn't exist
+ERROR - 2022-06-24 04:19:48 --> Table 'sai1wb.tr_kafb' doesn't exist
+CRITICAL - 2022-06-24 04:19:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:20:22 --> Table 'sai1wb.tr_kafb' doesn't exist
+ERROR - 2022-06-24 04:20:22 --> Table 'sai1wb.tr_kafb' doesn't exist
+ERROR - 2022-06-24 04:20:22 --> Table 'sai1wb.tr_kafb' doesn't exist
+CRITICAL - 2022-06-24 04:20:22 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:22:50 --> Unknown column 'tr_wb.wb_ib' in 'field list'
+ERROR - 2022-06-24 04:22:50 --> Unknown column 'tr_wb.wb_ib' in 'field list'
+ERROR - 2022-06-24 04:22:50 --> Unknown column 'tr_wb.wb_ib' in 'field list'
+CRITICAL - 2022-06-24 04:22:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:23:53 --> Unknown column 'tr_wb.weight_in-tr_wb.weight_out' in 'field list'
+ERROR - 2022-06-24 04:23:53 --> Unknown column 'tr_wb.weight_in-tr_wb.weight_out' in 'field list'
+ERROR - 2022-06-24 04:23:53 --> Unknown column 'tr_wb.weight_in-tr_wb.weight_out' in 'field list'
+CRITICAL - 2022-06-24 04:23:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:24:24 --> Unknown column 'tr_wb.weight_in-tr_wb.weight_out' in 'field list'
+ERROR - 2022-06-24 04:24:24 --> Unknown column 'tr_wb.weight_in-tr_wb.weight_out' in 'field list'
+ERROR - 2022-06-24 04:24:24 --> Unknown column 'tr_wb.weight_in-tr_wb.weight_out' in 'field list'
+CRITICAL - 2022-06-24 04:24:24 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:29:48 --> Unknown column 'tr_wb.weight_in - tr_wb.weight_out' in 'field list'
+ERROR - 2022-06-24 04:29:48 --> Unknown column 'tr_wb.weight_in - tr_wb.weight_out' in 'field list'
+ERROR - 2022-06-24 04:29:48 --> Unknown column 'tr_wb.weight_in - tr_wb.weight_out' in 'field list'
+CRITICAL - 2022-06-24 04:29:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:39:02 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:39:02 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:39:02 --> Unknown column 'v_wb.nocafd' in 'field list'
+CRITICAL - 2022-06-24 04:39:02 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:39:32 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:39:32 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:39:32 --> Unknown column 'v_wb.nocafd' in 'field list'
+CRITICAL - 2022-06-24 04:39:32 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:39:49 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:39:49 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:39:49 --> Unknown column 'v_wb.nocafd' in 'field list'
+CRITICAL - 2022-06-24 04:39:49 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:40:36 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:40:36 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:40:36 --> Unknown column 'v_wb.nocafd' in 'field list'
+CRITICAL - 2022-06-24 04:40:36 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:41:25 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:41:25 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:41:25 --> Unknown column 'v_wb.nocafd' in 'field list'
+CRITICAL - 2022-06-24 04:41:25 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-24 04:42:55 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:42:55 --> Unknown column 'v_wb.nocafd' in 'field list'
+ERROR - 2022-06-24 04:42:55 --> Unknown column 'v_wb.nocafd' in 'field list'
+CRITICAL - 2022-06-24 04:42:55 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Report->produksi()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-24 04:50:57 --> fopen(COM5): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM5): fa...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(92): fopen('COM5', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(54): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 04:51:04 --> fopen(COM5): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM5): fa...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(92): fopen('COM5', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(54): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 04:51:13 --> fopen(COM5): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM5): fa...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(92): fopen('COM5', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(54): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 04:51:22 --> fopen(COM5): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM5): fa...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(92): fopen('COM5', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(54): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 04:51:41 --> fopen(COM5): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM5): fa...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(92): fopen('COM5', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(54): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 04:51:48 --> fopen(COM5): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM5): fa...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(92): fopen('COM5', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(54): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 04:52:33 --> fopen(COM5): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM5): fa...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(92): fopen('COM5', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(54): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-24 04:52:41 --> fopen(COM5): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM5): fa...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(92): fopen('COM5', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(54): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

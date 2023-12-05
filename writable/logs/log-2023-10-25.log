@@ -1,0 +1,175 @@
+CRITICAL - 2023-10-25 05:14:42 --> Undefined class constant 'webAPIEndpoint'
+#0 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(363): App\Controllers\Cron->postAPIWb()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbIn()
+#2 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-25 20:47:10 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(236): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 20:53:22 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(234): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 20:53:55 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(234): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 20:54:39 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(234): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 20:55:40 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(234): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:00:13 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(235): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:01:07 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(234): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:05:55 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(233): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:08:01 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(234): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:17:19 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(237): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:27:35 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(234): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:30:39 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(234): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:36:35 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(443): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:39:02 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(443): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:39:45 --> Call to undefined method App\Controllers\Cron::updateAPIWb()
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-25 21:45:50 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(443): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:50:36 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(443): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 21:51:08 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(443): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-25 22:07:43 --> There is no data to update.
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Cron.php(443): CodeIgniter\Model->update()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Cron->sendWbOut()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

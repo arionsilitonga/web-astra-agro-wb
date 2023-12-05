@@ -1,0 +1,27 @@
+CRITICAL - 2023-11-05 19:46:56 --> Maximum execution time of 30 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-05 19:51:02 --> fopen(/dev/ttyACM0): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Timbang.php(714): fopen()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Timbang.php(852): App\Controllers\Timbang->getWeight()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-05 19:51:05 --> fopen(/dev/ttyACM0): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Timbang.php(714): fopen()
+#2 /var/www/astraagrolestari-weightbridge-v3/app/Controllers/Timbang.php(852): App\Controllers\Timbang->getWeight()
+#3 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#4 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-05 19:52:34 --> Call to undefined method App\Controllers\Timbang::clean()
+#0 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->getWeight()
+#1 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/astraagrolestari-weightbridge-v3/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/astraagrolestari-weightbridge-v3/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

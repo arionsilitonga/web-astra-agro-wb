@@ -1,0 +1,44 @@
+ERROR - 2022-07-18 07:44:54 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-18 07:44:55 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-18 07:44:55 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-18 07:44:56 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-18 07:44:57 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-18 07:44:58 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-18 07:45:00 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-18 07:45:01 --> Unknown column 'm_parameter_values.description' in 'where clause'
+CRITICAL - 2022-07-18 23:35:00 --> fopen(COM6): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM6): fa...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(108): fopen('COM6', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(69): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 23:35:08 --> fopen(COM6): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM6): fa...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(108): fopen('COM6', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(69): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 23:35:16 --> fopen(COM6): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM6): fa...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(108): fopen('COM6', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(69): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 23:35:26 --> fopen(COM6): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(COM6): fa...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(108): fopen('COM6', 'rb+')
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(69): App\Controllers\Timbang->getRawNFCData()
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
