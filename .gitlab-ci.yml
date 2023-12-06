@@ -8,4 +8,4 @@ before_script:
  
 deploy:
   script:
-    - ssh -i ~/.ssh/id_rsa root@$IP_SERVER "./home/administrator/codeigniter.sh"
+    - ssh -i ~/.ssh/id_rsa root@$IP_SERVER "sh /home/administrator/codeigniter.sh"
