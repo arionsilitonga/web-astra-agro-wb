@@ -1,2 +1,3 @@
 writeable/*
 .env
+.gitlab-ci.yml
