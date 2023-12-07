@@ -1,4 +1,4 @@
-image: ubuntu:20.04
+image: debian:latest
  
 before_script:
      - mkdir -p ~/.ssh
