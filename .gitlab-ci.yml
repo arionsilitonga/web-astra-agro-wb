@@ -8,4 +8,7 @@ before_script:
  
 deploy:
   script:
-    - ssh -i ~/.ssh/id_rsa administrator@$IP_SERVER "bash /home/administrator/codeigniter.sh"
+    - |
+      for IP in $(echo $IP_SERVER | tr ',' ' '); do
+        ssh -i ~/.ssh/id_rsa administrator@$IP "bash /home/administrator/codeigniter.sh"
+      done
