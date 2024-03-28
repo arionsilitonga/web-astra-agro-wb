@@ -49,6 +49,7 @@ class DataTimbang extends BaseController{
 			'tr_wb.npk_driver',
 			'tr_wb.driver_manual',
 			'tr_wb.nomor_polisi',
+			'tr_wb.jjg_ext',
 		];
 		$column_search = ['chitnumber', 'tr_wb.customercode', 'tr_wb.unitcode', 'tr_wb.npk_driver','tr_wb.driver_manual','tr_wb.nomor_polisi'];//,'m_parameter_values.description'
 		$select = [
@@ -70,6 +71,7 @@ class DataTimbang extends BaseController{
 			'm_parameter_values.description as productcode',
 			'tr_wb.driver_manual',
 			'tr_wb.nomor_polisi',
+			'tr_wb.jjg_ext',
 		];
 		$list = $list_data->get_datatables($tabel, $column_order, $column_search, $order, $where, $select);
 		$data = [];
@@ -258,6 +260,7 @@ class DataTimbang extends BaseController{
 				'tr_wb.driver_manual',
 				'tr_wb.keterangan',
 				'tr_wb.sitecode',
+				'tr_wb.jjg_ext',
 			])
 			->groupBy([
 				'tr_wb.chitnumber',
@@ -285,6 +288,7 @@ class DataTimbang extends BaseController{
 				'tr_wb.driver_manual',
 				'tr_wb.keterangan',
 				'tr_wb.sitecode',
+				'tr_wb.jjg_ext',
 			])
 			->first();
 		
@@ -351,6 +355,7 @@ class DataTimbang extends BaseController{
 				'tr_wb.npk_driver',
 				'tr_wb.driver_manual',
 				'tr_wb.keterangan',
+				'tr_wb.jjg_ext',
 			])
 			->groupBy([
 				'tr_wb.chitnumber',
@@ -377,6 +382,7 @@ class DataTimbang extends BaseController{
 				'tr_wb.npk_driver',
 				'tr_wb.driver_manual',
 				'tr_wb.keterangan',
+				'tr_wb.jjg_ext',
 			])
 			->first();
 		

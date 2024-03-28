@@ -232,8 +232,12 @@ class Users extends BaseController{
 		//exec ('shutdown -s -t 0');
 		// system('reboot');
 		// exec('/bin/sh /home/masterwb/shutdown.sh');
-		echo "Shutdown";
-		echo exec ( 'sudo shutdown.sh' );
+		$shutdownCommand = 'sudo shutdown -h now';
+
+		// Menjalankan perintah shutdown
+		exec($shutdownCommand);
+		//echo "Shutdown";
+		//echo exec ( 'sudo shutdown.sh' );
 		
     }
 

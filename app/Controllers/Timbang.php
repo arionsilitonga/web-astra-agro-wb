@@ -18,6 +18,7 @@ use App\Models\MtransporterUnitModel;
 use Config\Database;
 use ZipArchive;
 use Andre;
+use DateTime;
 use Exception;
 
 class Timbang extends BaseController
@@ -76,7 +77,8 @@ class Timbang extends BaseController
 		$rawdata = $this->getRawNFCData();
 
 		$data = explode(';', $rawdata);
-
+		//echo "jumlah data".count($data);
+		//die();
 		if (count($data) > 2) {
 			if ($data[2] == 'ID_DT') {
 				$idDT = $this->getDT($data);
@@ -84,14 +86,22 @@ class Timbang extends BaseController
 			} elseif ($data[2] == 'SKU') {
 				$sku = $this->getSKU($data);
 				return $this->response->setJSON($sku);
-			} elseif ((count($data) >= 9) && ($data[6] == 4)) {
-				// print_r($data);die;
+			} elseif ((count($data) >= 9) && ($data[6] == 4)) { //KAB INTENAL
 				$bklReturn = $this->getKAB($data, $rawdata);
 				return $this->response->setJSON($bklReturn);
-			} elseif ($data[2] == 'TBS External') {
+			} elseif (count($data)==22 && $data[2] == 'TBS External') {//KAB EXTERNAL
 				//return $this->response->setJSON($data);
-				return $this->response->setJSON($this->getKABExternal($data, $rawdata));
-			}elseif ($data[2] == 'TBS Plasma') {
+				
+				if($this->validateDate($data[6]) ){
+					return $this->response->setJSON($this->getKABExternal($data, $rawdata));
+				}else{
+					return $this->response->setJSON([
+						'tipe' => 'Unknown',
+						'rawdata' => $rawdata,
+						'invalid'=>'jam boarding'
+					]);
+				}
+			}elseif (count($data)==22 && $data[2] == 'TBS Plasma') {//KAB PLASMA
 				//return $this->response->setJSON($data);
 				return $this->response->setJSON($this->getKABPlasma($data, $rawdata));
 			}
@@ -316,23 +326,46 @@ class Timbang extends BaseController
 		$trWbModel = new TrWbModel();
 		$tr_kab = $trWbModel->where(['kabcode' => $kabcode])->first();
 
-		$bklReturn = [
-			'tipe' => 'KAB',
-			'kab_type' => count($data) > 8 ? 'BOARDING' : 'NON-BOARDING',
-			'sitecode' => $site,
-			'customer' => $customer,
-			'produk' => $produk,
-			'transaksi' => $transaksi,
-			'noc' => $noc,
-			//'raw_noc' => $rawnoc,
-			//'kab' => $data,
-			'kabcode' => $kabcode,
-			'chitnumber' => $tr_kab['chitnumber'] ?? '',
-			'kabraw' => $rawdata,
-			'status' =>$tr_kab['status'] ?? '',
-			// 'driver_manual' => $tr_kab['driver_manual'],
-			// 'keterangan' => $rawdata['keterangan'],
-		];
+		if (count($data)==9) {
+			$bklReturn = [			
+				'jumlahdata'=>count($data),
+				'tipe' => 'KAB',
+				'kab_type' => count($data) > 8 ? 'BOARDING' : 'NON-BOARDING',
+				'sitecode' => $site,
+				'customer' => $customer,
+				'produk' => $produk,
+				'transaksi' => $transaksi,
+				'noc' => $noc,
+				//'raw_noc' => $rawnoc,
+				//'kab' => $data,
+				'kabcode' => $kabcode,
+				'chitnumber' => $tr_kab['chitnumber'] ?? '',
+				'kabraw' => $rawdata,
+				'status' =>$tr_kab['status'] ?? '',
+			];
+		}else{
+
+			$kab_dtready_dtgo = explode(',', $data[8]);
+			$bklReturn = [			
+				'jumlahdata'=>count($data),
+				'tipe' => 'KAB',
+				'kab_type' => count($data) > 8 ? 'BOARDING' : 'NON-BOARDING',
+				'sitecode' => $site,
+				'customer' => $customer,
+				'produk' => $produk,
+				'transaksi' => $transaksi,
+				'noc' => $noc,
+				//'raw_noc' => $rawnoc,
+				//'kab' => $data,
+				'kabcode' => $kabcode,
+				'chitnumber' => $tr_kab['chitnumber'] ?? '',
+				'kabraw' => $rawdata,
+				'status' =>$tr_kab['status'] ?? '',
+				'dtready'=>$kab_dtready_dtgo[0],
+				'dtgo'=>$kab_dtready_dtgo[1],
+			];
+		}
+		
 
 		$kabKolom3 = explode(',', $data[2]);
 		if (count($kabKolom3) >= 3) {
@@ -379,8 +412,19 @@ class Timbang extends BaseController
 		//$tr_wb = $trWbModel->find($data[3]);
 
 		$tr_wb = $trWbModel->where(['nomorticket' => $data[3]])->first();
+		$site = [
+			'value' => $data[20] ?? '',
+			'text' => $data[20] ?? '',
+		];
+
+		$customercode = [
+			'value' => $data[10] ??'',
+			'text' => $data[10]?? '',
+		];
+		
 
 		$bklReturn = [
+			'jumlahdata'=>count($data),
 			'tipe' => 'KAB External',
 			'produk' => static::produkTBS,
 			'transaksi' => static::transaksiTBSExternal,
@@ -400,8 +444,15 @@ class Timbang extends BaseController
 			'supplier_group' => $data[16] ?? '',
 			'supplier_group_description' => $data[17] ?? '',
 			'kabraw' => $rawdata,
-
 			'chitnumber' => $tr_wb['chitnumber'] ?? '',
+			'sitecode' => $data[20] ?? '',
+			'sitecode_plasma' => $data[20] ?? '',
+			'afdeling_plasma' => $data[18] ?? '',
+			'sitecode' => $site,
+			'customercode_plasma' => $data[18]?? '',
+			'customercode'=>$customercode,
+			'transportercode'=>$data[19]??'',
+			'jjg_ext'=>$data[16]??'',
 		];
 		return $bklReturn;
 	}
@@ -413,7 +464,17 @@ class Timbang extends BaseController
 
 		$tr_wb = $trWbModel->where(['nomorticket' => $data[3]])->first();
 
+		$site = [
+			'value' => $data[20] ?? '',
+			'text' => $data[20] ?? '',
+		];
+
+		$customercode = [
+			'value' => $data[20] .$data[17] ??'',
+			'text' => $data[20].$data[17] ??'',
+		];
 		$bklReturn = [
+			'jumlahdata'=>count($data),
 			'tipe' => 'KAB External',
 			'produk' => static::produkTBS,
 			'transaksi' => static::transaksiTBSPlasma,
@@ -433,8 +494,15 @@ class Timbang extends BaseController
 			'supplier_group' => $data[16] ?? '',
 			'supplier_group_description' => $data[17] ?? '',
 			'kabraw' => $rawdata,
-
 			'chitnumber' => $tr_wb['chitnumber'] ?? '',
+			'sitecode' => $data[20] ?? '',
+			'sitecode_plasma' => $data[20] ?? '',
+			'afdeling_plasma' => $data[17] ?? '',
+			'sitecode' => $site,
+			'customercode_plasma' => $data[17]?? '',
+			'customercode'=>$customercode,
+			'transportercode'=>$data[19]??'',
+			'jjg_ext'=>$data[16]??'',
 		];
 		return $bklReturn;
 	}
@@ -752,7 +820,7 @@ class Timbang extends BaseController
 		try {
 			$bakalReturn['value'] = number_format($value, 0, ',', '.');
 		} catch (\Throwable $th) {
-			$bakalReturn['value'] = 1;
+			$bakalReturn['value'] = 0;
 		}
 		//print_r($bakalReturn);
 		
@@ -899,6 +967,12 @@ class Timbang extends BaseController
 	public function getCurrentDate(){
 		date_default_timezone_set('Asia/Jakarta');
 		return date('Y-m-d H:i:s');
+	}
+
+	function validateDate($date, $format = 'Y-m-d H:i:s')
+	{
+		$d = DateTime::createFromFormat($format, $date);
+		return $d && $d->format($format) == $date;
 	}
 
 	public function getWeightLength(){
@@ -1307,6 +1381,7 @@ class Timbang extends BaseController
 		}
 
 		$post = $this->request->getPost();
+		
 
 		if ($post['transactiontype'] == static::transaksiTBSExternal['value'] || $post['transactiontype'] == static::transaksiTBSPlasma['value']) {
 			/*if (!$this->validate([
@@ -1399,17 +1474,20 @@ class Timbang extends BaseController
 		}
 	
 		/** Set: Chitbumber dan SabNo di noc / kab detail */
+		$total_jjg =0;
 		if (isset($post['noc'])) {
 			foreach ($post['noc'] as $key => &$noc) {
 				$noc['chitnumber'] = $post['chitnumber'];
 				$noc['sabno'] = $post['sabno'] ?? '';
+				$total_jjg = $total_jjg+$noc['jjg'];
 			}
 		}
-		
+		$post['jjg_ext']=$total_jjg;
+		//print_r($post);die();
 		/** Simpan Data */
 		$trWbModel = new TrWbModel();					
 		if ($tambahBaru) {
-			// $this->delete($post['kabcode']);
+			
 			$post['operator_in'] = session()->get('name');
 			$post['created_at'] = date('Y-m-d');
 			$trWbModel->insert($post);

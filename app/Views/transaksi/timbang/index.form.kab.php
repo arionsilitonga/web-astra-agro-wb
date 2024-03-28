@@ -32,7 +32,7 @@
 	<tfoot>
 		<tr>
 			<td colspan="3">Total JJG</td>
-			<td colspan="2" id="total-jjg"><?= $jjg ?></td>
+			<td colspan="2" id="total-jjg" name="total-jjg"><?= $jjg ?></td>
 		</tr>
 	</tfoot>
 </table>

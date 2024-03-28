@@ -247,6 +247,7 @@ function getPending(chitOnTrans){
 					totalJJG += parseInt(value.jjg);
 				});
 				$('#total-jjg').html(totalJJG);
+				$('#timbang-jjg-ext').html(totalJJG);
 			
 		} else {
 			$(document).Toasts('create', {
@@ -577,7 +578,9 @@ $('#get-NFC-button').on('click', function() {
 		$('#nfc-data').append('<div class="console-text">' + jqXHR.responseText + '</div>');
 		//alert('test'+'<?= ($tr_wb['status'] ?? '') ?>');
 		if (msg.tipe == 'KAB External') {
+			
 			setTbsExternal();
+			var sitecodeSelect = $('select#timbang-SiteCode');
 			if (msg.chitnumber != '') {
 					/*if (confirm('Apakah anda akan mengisi grading?')) {
 						$('#grading_formModal').modal('show');
@@ -603,6 +606,20 @@ $('#get-NFC-button').on('click', function() {
 			}
 			$('select#timbang-TransactionType').val(msg.transaksi.value).change();
 
+
+
+			/**KAB PLASMA */
+			if ($('select#timbang-SiteCode option[value="'+ msg.sitecode.value +'"]').length <= 0){/** Cek jenis transaksi tidak ada dalam option */
+				$('select#timbang-SiteCode').append($('<option/>', msg.sitecode));
+			}
+			$('select#timbang-SiteCode').val(msg.sitecode.value).change();
+
+			if ($('select#timbang-CustomerCode option[value="'+ msg.customercode.value +'"]').length <= 0){/** Cek customercode tidak ada dalam option */
+				$('select#timbang-CustomerCode').append($('<option/>', msg.customercode));
+			}
+			$('select#timbang-CustomerCode').val(msg.customercode.value).change();
+			/**END KAB PLASMA */
+
 			$('input#timbang-GateIn').val(msg.gate_in);
 			$('input#timbang-GateOut').val(msg.gate_out);
 			$('input#timbang-BoardingIn').val(msg.boarding_in);
@@ -617,7 +634,13 @@ $('#get-NFC-button').on('click', function() {
 			$('input#timbang-Kab_createby').val(msg.kab_createby);
 			// $('input#timbang-supplier-group').val(msg.supplier_group);
 			// $('input#timbang-supplier-group-description').val(msg.supplier_group_description);
+			$('input#timbang-sitecode-plasma').val(msg.sitecode_plasma);
+			$('input#timbang-afdeling-plasma').val(msg.afdeling_plasma);
 			$('#timbang-kabraw').val(msg.kabraw);
+			$('#timbang-jjg-ext').val(msg.jjg_ext);
+			
+
+			
 
 		} else {
 			setNonTbsExternal();
@@ -776,8 +799,13 @@ $('#get-NFC-button').on('click', function() {
 				alert('Read cancelled');
 				kartuError = true;
 			} else if (msg.tipe == 'Unknown') {
-				alert('Kartu tidak dikenali atau Belum Melakukan Boarding');
-				kartuError = true;
+				if (msg.invalid=='jam boarding'){
+					alert('Kartu Tidak Lengkap.\nAnda Belum Boarding');
+				}else{
+					alert('Kartu Tidak Lengkap atau Belum Melakukan Boarding.\nSilahkan TAP Ulang kartu atau Buat KAB ulang');
+					kartuError = true;
+				}
+				
 			}
 
 			setTimeout(function(){

@@ -63,6 +63,7 @@ class TrWbModel extends Model{
 		'sentout',
 		'supplier_group',
 		'supplier_group_description',
+		'jjg_ext',
 	];
 
 	protected function _set_datatables_query()

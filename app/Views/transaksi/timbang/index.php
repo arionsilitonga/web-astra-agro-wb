@@ -60,8 +60,8 @@ $this->breadcrumbs = [$this->title];
 				<p>
 					Write KAB
 					<ol>
-						<li>Klik tombol [Write KAB].</li>
 						<li>Tempelkan kartu (KAB) pada NFC Reader / Writer.</li>
+						<li>Klik tombol [Write KAB].</li>
 						<li>Tunggu hingga proses selesai, kemudian angkat kartu (KAB)</li>
 					</ol>
 				</p>

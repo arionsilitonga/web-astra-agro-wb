@@ -78,6 +78,7 @@ class Cron extends Controller {
 				'tr_wb.kab_prop',
 				'tr_wb.kab_createdate',
 				'tr_wb.kab_createby',
+				'tr_wb.jjg_ext',
 			]);
 		
 		if ($chitnumber != null) {
@@ -252,6 +253,7 @@ class Cron extends Controller {
 				'tr_wb.kab_prop',
 				'tr_wb.kab_createdate',
 				'tr_wb.kab_createby',
+				'tr_wb.jjg_ext',
 			]);
 		
 		if ($chitnumber != null) {
