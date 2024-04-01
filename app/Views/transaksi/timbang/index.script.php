@@ -800,9 +800,9 @@ $('#get-NFC-button').on('click', function() {
 				kartuError = true;
 			} else if (msg.tipe == 'Unknown') {
 				if (msg.invalid=='jam boarding'){
-					alert('Kartu Tidak Lengkap.\nAnda Belum Boarding');
+					alert('Kartu Tidak Lengkap!.\nAnda Belum Boarding');
 				}else{
-					alert('Kartu Tidak Lengkap atau Belum Melakukan Boarding.\nSilahkan TAP Ulang kartu atau Buat KAB ulang');
+					alert('Kartu Tidak Lengkap atau Belum Melakukan Boarding!.\nSilahkan TAP Ulang kartu atau Buat KAB ulang');
 					kartuError = true;
 				}
 				
