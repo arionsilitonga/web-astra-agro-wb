@@ -1,4 +1,4 @@
-writeable/*
+writable/session/
 .env
 app/View/report/nota-timbang.php
 app/View/report/nota-timbang-preprint.

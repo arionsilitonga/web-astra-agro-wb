@@ -1,0 +1,66 @@
+CRITICAL - 2023-03-11 01:21:07 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 35
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Router/Router.php(357): preg_match()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Router/Router.php(145): CodeIgniter\Router\Router->checkRoutes()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-11 01:24:30 --> syntax error, unexpected '$transporter_unit_model' (T_VARIABLE)
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-11 01:25:07 --> syntax error, unexpected '{'
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-11 01:27:24 --> syntax error, unexpected '$transporter_unit_model' (T_VARIABLE)
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(767): class_exists()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-11 01:29:49 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 35
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Router/Router.php(357): preg_match()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Router/Router.php(145): CodeIgniter\Router\Router->checkRoutes()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-11 01:29:59 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 35
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Router/Router.php(357): preg_match()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Router/Router.php(145): CodeIgniter\Router\Router->checkRoutes()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-11 01:31:08 --> preg_match(): Compilation failed: unmatched closing parenthesis at offset 35
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Router/Router.php(357): preg_match()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Router/Router.php(145): CodeIgniter\Router\Router->checkRoutes()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

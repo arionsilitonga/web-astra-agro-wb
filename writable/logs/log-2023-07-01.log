@@ -1,0 +1,49 @@
+CRITICAL - 2023-07-01 05:35:34 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(729): number_format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-01 05:35:39 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(729): number_format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-01 05:35:44 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(729): number_format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-01 05:35:49 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(729): number_format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-01 05:35:55 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(729): number_format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->weighRead()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-07-01 05:51:07 --> Undefined variable: totalTime
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Debug/Toolbar.php(413): include('/var/www/astraa...')
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Debug/Toolbar.php(375): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/astraagrolestari-weightbridge/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(299): CodeIgniter\Events\Events::trigger()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

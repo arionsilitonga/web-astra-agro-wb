@@ -1,0 +1,120 @@
+CRITICAL - 2022-07-28 08:35:45 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(994): App\Controllers\Timbang->deleteWbInExists('2022-07-28 20:3...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->save()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 08:39:19 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(994): App\Controllers\Timbang->deleteWbInExists('2022-07-28 20:3...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->save()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 08:39:22 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(994): App\Controllers\Timbang->deleteWbInExists('2022-07-28 20:3...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->save()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 08:39:39 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(994): App\Controllers\Timbang->deleteWbInExists('2022-07-28 20:3...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->save()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 08:47:34 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(994): App\Controllers\Timbang->deleteWbInExists('2022-07-28 20:4...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->save()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 08:47:37 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\Timbang.php(994): App\Controllers\Timbang->deleteWbInExists('2022-07-28 20:4...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Timbang->save()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Timbang))
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 08:57:55 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 08:58:00 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 08:58:05 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 08:58:10 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 08:58:16 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 08:58:21 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 08:58:26 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 09:15:17 --> Cannot redeclare App\Controllers\Timbang::generateNewChitNumber()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-28 09:15:22 --> Cannot redeclare App\Controllers\Timbang::generateNewChitNumber()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-07-28 09:58:46 --> Duplicate entry 'EDI1P1220728009' for key 'PRIMARY'
+ERROR - 2022-07-28 09:59:50 --> Duplicate entry 'EDI1P1220728001' for key 'PRIMARY'

@@ -1,0 +1,171 @@
+ERROR - 2023-01-11 02:19:01 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-01-11 02:19:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /var/www/astraagrolestari-weightbridge/app/Controllers/Master/Users.php(136): CodeIgniter\BaseModel->find()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Master\Users->login()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-11 02:23:27 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-01-11 02:23:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /var/www/astraagrolestari-weightbridge/app/Controllers/Master/Users.php(136): CodeIgniter\BaseModel->find()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Master\Users->login()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-11 02:25:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2023-01-11 02:25:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#4 /var/www/astraagrolestari-weightbridge/app/Controllers/Master/Users.php(136): CodeIgniter\BaseModel->find()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Master\Users->login()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-11 02:28:28 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 17415536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-11 02:29:02 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 17415536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-11 02:30:25 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 17415536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-11 02:30:52 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 17415536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-11 02:33:03 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 17415536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-11 02:33:11 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 17415536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-11 02:33:24 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 17415536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-11 02:37:56 --> fopen(/dev/ttyUSB0): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-11 02:38:26 --> fopen(/dev/ttyUSB0): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-11 02:38:29 --> fopen(/dev/ttyUSB0): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-01-11 03:36:35 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+CRITICAL - 2023-01-11 03:36:35 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(1024): CodeIgniter\BaseModel->insertBatch()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->save()
+#8 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-11 03:43:55 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+CRITICAL - 2023-01-11 03:43:55 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(1024): CodeIgniter\BaseModel->insertBatch()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->save()
+#8 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-11 03:44:41 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+CRITICAL - 2023-01-11 03:44:41 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(1024): CodeIgniter\BaseModel->insertBatch()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->save()
+#8 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-11 03:49:35 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+CRITICAL - 2023-01-11 03:49:35 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(1024): CodeIgniter\BaseModel->insertBatch()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->save()
+#8 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-11 03:51:34 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+CRITICAL - 2023-01-11 03:51:34 --> Duplicate entry 'SAI1P1230111001' for key 'tr_wb.PRIMARY'
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(1024): CodeIgniter\BaseModel->insertBatch()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->save()
+#8 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-11 07:33:02 --> Duplicate entry 'SAI1P1230111003' for key 'tr_wb.PRIMARY'
+CRITICAL - 2023-01-11 07:33:02 --> Duplicate entry 'SAI1P1230111003' for key 'tr_wb.PRIMARY'
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(280): mysqli->query()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/BaseModel.php(814): CodeIgniter\Model->doInsertBatch()
+#6 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(1024): CodeIgniter\BaseModel->insertBatch()
+#7 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->save()
+#8 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

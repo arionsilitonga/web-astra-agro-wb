@@ -1,0 +1,63 @@
+CRITICAL - 2023-05-23 06:50:01 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-23 06:50:04 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-23 07:23:19 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(539): fopen()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->writeKab()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-23 07:23:23 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(539): fopen()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->writeKab()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-05-23 10:37:06 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody()
+#3 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(649): CodeIgniter\HTTP\Response->setJSON()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->writeKab()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-23 13:27:39 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(317): CodeIgniter\Format\JSONFormatter->format()
+#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(243): CodeIgniter\HTTP\Response->formatBody()
+#3 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(97): CodeIgniter\HTTP\Response->setJSON()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-23 21:57:59 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

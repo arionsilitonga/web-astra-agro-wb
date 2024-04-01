@@ -1,0 +1,9 @@
+ERROR - 2022-09-12 07:47:01 --> Unknown column 'a.wb_in' in 'field list'
+CRITICAL - 2022-09-12 07:47:01 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(262): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('EDI1P1220905003')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

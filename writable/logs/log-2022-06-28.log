@@ -1,0 +1,278 @@
+ERROR - 2022-06-28 00:17:48 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:17:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627027')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:17:53 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:17:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627021')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:18:01 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:18:01 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627020')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:18:04 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:18:04 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627024')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:18:11 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:18:11 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627038')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:18:15 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:18:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627022')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:18:32 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:18:32 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627027')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:25:48 --> Cannot use object of type App\Models\TrWbModel as array
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('report/nota-tim...', Array, true)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(257): view('report/nota-tim...', Array)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627033')
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 00:26:01 --> Cannot use object of type App\Models\TrWbModel as array
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('report/nota-tim...', Array, true)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(257): view('report/nota-tim...', Array)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627033')
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-28 00:27:38 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:27:38 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220628002')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:29:17 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:29:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627033')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:30:16 --> Cannot use object of type App\Models\TrWbModel as array
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('report/nota-tim...', Array, true)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(255): view('report/nota-tim...', Array)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627033')
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 00:30:26 --> Cannot use object of type App\Models\TrWbModel as array
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('report/nota-tim...', Array, true)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(255): view('report/nota-tim...', Array)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627033')
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 00:31:35 --> Cannot use object of type App\Models\TrWbModel as array
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('report/nota-tim...', Array, true)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(255): view('report/nota-tim...', Array)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627033')
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 00:31:50 --> Cannot use object of type App\Models\TrWbModel as array
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('report/nota-tim...', Array, true)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(255): view('report/nota-tim...', Array)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-28 00:32:30 --> Cannot use object of type App\Models\TrWbModel as array
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('report/nota-tim...', Array, true)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(255): view('report/nota-tim...', Array)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-28 00:37:51 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:37:51 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:44:28 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:44:28 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(251): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-28 00:46:27 --> Cannot use object of type App\Models\TrWbModel as array
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('report/nota-tim...', Array, true)
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(255): view('report/nota-tim...', Array)
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#6 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-28 00:48:41 --> Unknown column 'v_blok_jjg.chitnumber' in 'field list'
+CRITICAL - 2022-06-28 00:48:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(250): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:54:57 --> Unknown column 'tr_wb.chit_number' in 'on clause'
+CRITICAL - 2022-06-28 00:54:57 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(239): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220628002')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:55:55 --> Unknown column 'tr_wb.chit_number' in 'on clause'
+CRITICAL - 2022-06-28 00:55:55 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(239): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:58:51 --> Unknown column 'tr_wb.chit_number' in 'on clause'
+CRITICAL - 2022-06-28 00:58:51 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(240): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:59:05 --> Unknown column 'tr_wb.chit_number' in 'on clause'
+CRITICAL - 2022-06-28 00:59:05 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(240): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 00:59:35 --> Unknown column 'tr_wb.chit_number' in 'on clause'
+CRITICAL - 2022-06-28 00:59:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(240): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 01:02:48 --> Unknown column 'tr_wb.chit_number' in 'on clause'
+CRITICAL - 2022-06-28 01:02:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(240): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('SAI1P1220627032')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-28 05:34:36 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:37 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:37 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:39 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:40 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:40 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:41 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:42 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:44 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:49 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 05:34:50 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:49:10 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:49:10 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:49:11 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:26 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:27 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:27 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:29 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:29 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:30 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:30 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:31 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:33 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:33 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:35 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:36 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 06:51:36 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:02:35 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:02:36 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:02:37 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:02:37 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:02:38 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:02:39 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:02:39 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:02:41 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-06-28 23:18:20 --> Unknown column 'm_parameter_values.description' in 'where clause'

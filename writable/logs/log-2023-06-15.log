@@ -1,0 +1,270 @@
+CRITICAL - 2023-06-15 21:42:23 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 21:42:31 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 21:42:33 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 21:42:38 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 21:42:43 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 21:42:54 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 21:43:06 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:26:47 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:26:50 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:26:53 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:27:00 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:27:04 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:27:07 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:27:29 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:27:32 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:27:34 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:27:40 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:28:51 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:28:53 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:33:55 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:33:57 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:04 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:11 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:19 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:21 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:30 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:36 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:38 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:45 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-06-15 23:34:55 --> fopen(/dev/ttyUSB1): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(109): fopen()
+#2 /var/www/astraagrolestari-weightbridge/app/Controllers/Timbang.php(70): App\Controllers\Timbang->getRawNFCData()
+#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Timbang->nfcRead()
+#4 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

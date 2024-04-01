@@ -1,0 +1,69 @@
+ERROR - 2022-07-19 01:16:07 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 01:16:08 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 01:16:08 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 04:26:59 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 04:26:59 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 04:27:00 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 04:27:01 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 04:31:10 --> Unknown column 'm_employee.nama' in 'group statement'
+CRITICAL - 2022-07-19 04:31:10 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(258): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('EDI1P1220705105')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-19 04:31:50 --> Unknown column 'm_employee.nama' in 'group statement'
+CRITICAL - 2022-07-19 04:31:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(258): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('EDI1P1220719001')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-19 04:33:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `nama_barang`, `tr_wb`.`unitcode`, `m_unit`.`platenumber`, `m_transporter`...' at line 13
+CRITICAL - 2022-07-19 04:33:34 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(262): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('EDI1P1220719001')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-19 04:33:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `nama_barang`, `tr_wb`.`unitcode`, `m_unit`.`platenumber`, `m_transporter`...' at line 13
+CRITICAL - 2022-07-19 04:33:42 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(262): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('EDI1P1220719001')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-19 04:34:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `nama_barang`, `tr_wb`.`unitcode`, `m_unit`.`platenumber`, `m_transporter`...' at line 13
+CRITICAL - 2022-07-19 04:34:52 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\astraagrolestari-weightbridge\app\Controllers\DataTimbang.php(262): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DataTimbang->nota('EDI1P1220719001')
+#3 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataTimbang))
+#4 C:\xampp\htdocs\astraagrolestari-weightbridge\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\astraagrolestari-weightbridge\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-19 06:36:18 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 06:36:19 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 06:36:20 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 06:36:21 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 06:36:21 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 06:36:22 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 06:36:23 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 06:40:19 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 06:40:20 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 07:12:04 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 07:12:05 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 07:12:05 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 07:12:07 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 07:12:08 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 07:12:09 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 07:12:09 --> Unknown column 'm_parameter_values.description' in 'where clause'
+ERROR - 2022-07-19 22:15:25 --> Unknown column 'm_parameter_values.description' in 'where clause'

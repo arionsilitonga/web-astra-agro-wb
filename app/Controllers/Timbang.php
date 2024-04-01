@@ -87,6 +87,8 @@ class Timbang extends BaseController
 				$sku = $this->getSKU($data);
 				return $this->response->setJSON($sku);
 			} elseif ((count($data) >= 9) && ($data[6] == 4)) { //KAB INTENAL
+				
+				//echo sys_get_temp_dir() . '/wbs'; die();
 				$bklReturn = $this->getKAB($data, $rawdata);
 				return $this->response->setJSON($bklReturn);
 			} elseif (count($data)==22 && $data[2] == 'TBS External') {//KAB EXTERNAL
@@ -249,7 +251,7 @@ class Timbang extends BaseController
 		//$kabraw = $data[3];
 
 		$noc_decoded = base64_decode($data[3]);
-
+		
 		$rawnoc = $this->getRawNOC($noc_decoded);
 
 		$count_noc = count($rawnoc);
@@ -513,8 +515,7 @@ class Timbang extends BaseController
 	 * Extract to file dan ambil text NOC
 	 */
 	protected function getRawNOC($noc_decoded)
-	{
-		$rawnoc = [];
+	{	$rawnoc = [];
 		$tmp_folder = sys_get_temp_dir() . '/wbs';
 		if (!file_exists($tmp_folder)) {
 			mkdir($tmp_folder);
@@ -522,7 +523,7 @@ class Timbang extends BaseController
 
 		$file_name = tempnam($tmp_folder, 'noc');
 		$file_name_extract = $file_name . '_ext';
-
+		//echo $file_name_extract;
 		$fs = fopen($file_name, 'wb');
 		fwrite($fs, $noc_decoded);
 		fclose($fs);
