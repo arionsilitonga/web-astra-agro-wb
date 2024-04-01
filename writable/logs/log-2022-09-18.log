@@ -1,4 +1,0 @@
-ERROR - 2022-09-18 05:55:04 --> Duplicate entry 'A8676ZH' for key 'PRIMARY'
-ERROR - 2022-09-18 05:55:37 --> Duplicate entry 'A8676ZH' for key 'PRIMARY'
-ERROR - 2022-09-18 20:36:21 --> Unknown column 'm_parameter_values.description' in 'where clause'
-ERROR - 2022-09-18 20:36:33 --> Unknown column 'm_parameter_values.description' in 'where clause'

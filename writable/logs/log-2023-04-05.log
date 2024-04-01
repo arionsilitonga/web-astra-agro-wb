@@ -1,7 +1,0 @@
-CRITICAL - 2023-04-05 09:40:11 --> Use of undefined constant phpinfo - assumed 'phpinfo' (this will throw an Error in a future version of PHP)
-#0 /var/www/astraagrolestari-weightbridge/app/Controllers/Master/Users.php(230): CodeIgniter\Debug\Exceptions->errorHandler()
-#1 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Master\Users->shutdown()
-#2 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController()
-#3 /var/www/astraagrolestari-weightbridge/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest()
-#4 /var/www/astraagrolestari-weightbridge/public/index.php(37): CodeIgniter\CodeIgniter->run()
-#5 {main}
