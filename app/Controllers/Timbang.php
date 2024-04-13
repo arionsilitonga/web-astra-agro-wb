@@ -89,20 +89,23 @@ class Timbang extends BaseController
 			} elseif ((count($data) >= 9) && ($data[6] == 4)) { //KAB INTENAL
 				
 				//echo sys_get_temp_dir() . '/wbs'; die();
+				
 				$bklReturn = $this->getKAB($data, $rawdata);
 				return $this->response->setJSON($bklReturn);
 			} elseif (count($data)==22 && $data[2] == 'TBS External') {//KAB EXTERNAL
 				//return $this->response->setJSON($data);
-				
-				if($this->validateDate($data[6]) ){
+				//print_r($data);die();
+				return $this->response->setJSON($this->getKABExternal($data, $rawdata));
+				/*if($this->validateDate($data[7]) ){
 					return $this->response->setJSON($this->getKABExternal($data, $rawdata));
 				}else{
 					return $this->response->setJSON([
 						'tipe' => 'Unknown',
 						'rawdata' => $rawdata,
-						'invalid'=>'jam boarding'
+						'invalid'=>'jam boarding',
+						'jamboarding'=>$data[7]
 					]);
-				}
+				}*/
 			}elseif (count($data)==22 && $data[2] == 'TBS Plasma') {//KAB PLASMA
 				//return $this->response->setJSON($data);
 				return $this->response->setJSON($this->getKABPlasma($data, $rawdata));
@@ -249,7 +252,7 @@ class Timbang extends BaseController
 	protected function getKAB(array $data, $rawdata)
 	{
 		//$kabraw = $data[3];
-
+		//echo($data[3]);die();
 		$noc_decoded = base64_decode($data[3]);
 		
 		$rawnoc = $this->getRawNOC($noc_decoded);
@@ -327,45 +330,49 @@ class Timbang extends BaseController
 		$kabcode = $data[5];
 		$trWbModel = new TrWbModel();
 		$tr_kab = $trWbModel->where(['kabcode' => $kabcode])->first();
-
-		if (count($data)==9) {
-			$bklReturn = [			
-				'jumlahdata'=>count($data),
-				'tipe' => 'KAB',
-				'kab_type' => count($data) > 8 ? 'BOARDING' : 'NON-BOARDING',
-				'sitecode' => $site,
-				'customer' => $customer,
-				'produk' => $produk,
-				'transaksi' => $transaksi,
-				'noc' => $noc,
-				//'raw_noc' => $rawnoc,
-				//'kab' => $data,
-				'kabcode' => $kabcode,
-				'chitnumber' => $tr_kab['chitnumber'] ?? '',
-				'kabraw' => $rawdata,
-				'status' =>$tr_kab['status'] ?? '',
-			];
-		}else{
-
-			$kab_dtready_dtgo = explode(',', $data[8]);
-			$bklReturn = [			
-				'jumlahdata'=>count($data),
-				'tipe' => 'KAB',
-				'kab_type' => count($data) > 8 ? 'BOARDING' : 'NON-BOARDING',
-				'sitecode' => $site,
-				'customer' => $customer,
-				'produk' => $produk,
-				'transaksi' => $transaksi,
-				'noc' => $noc,
-				//'raw_noc' => $rawnoc,
-				//'kab' => $data,
-				'kabcode' => $kabcode,
-				'chitnumber' => $tr_kab['chitnumber'] ?? '',
-				'kabraw' => $rawdata,
-				'status' =>$tr_kab['status'] ?? '',
-				'dtready'=>$kab_dtready_dtgo[0],
-				'dtgo'=>$kab_dtready_dtgo[1],
-			];
+		//echo count($data);die();
+		if (count($data)>=9) {
+			if ($data[8]==null || $data[8]==''|| $data[8]=='#*E'){
+				$bklReturn = [			
+					'jumlahdata'=>count($data),
+					'tipe' => 'KAB',
+					'kab_type' => count($data) > 8 ? 'BOARDING' : 'NON-BOARDING',
+					'sitecode' => $site,
+					'customer' => $customer,
+					'produk' => $produk,
+					'transaksi' => $transaksi,
+					'noc' => $noc,
+					//'raw_noc' => $rawnoc,
+					//'kab' => $data,
+					'kabcode' => $kabcode,
+					'chitnumber' => $tr_kab['chitnumber'] ?? '',
+					'kabraw' => $rawdata,
+					'status' =>$tr_kab['status'] ?? '',
+				];
+			}else{
+				// print_r($data) ;die();
+				$kab_dtready_dtgo = explode(',', $data[8]);
+				$bklReturn = [			
+					'jumlahdata'=>count($data),
+					'tipe' => 'KAB',
+					'kab_type' => count($data) > 8 ? 'BOARDING' : 'NON-BOARDING',
+					'sitecode' => $site,
+					'customer' => $customer,
+					'produk' => $produk,
+					'transaksi' => $transaksi,
+					'noc' => $noc,
+					//'raw_noc' => $rawnoc,
+					//'kab' => $data,
+					'kabcode' => $kabcode,
+					'chitnumber' => $tr_kab['chitnumber'] ?? '',
+					'kabraw' => $rawdata,
+					'status' =>$tr_kab['status'] ?? '',
+					// 'dt_ready_go'=>$data[8],
+					'dtready'=>$kab_dtready_dtgo[0],
+					'dtgo'=>$kab_dtready_dtgo[1],
+				];
+			}
+			
 		}
 		
 
@@ -1396,6 +1403,7 @@ class Timbang extends BaseController
 				'customercode'	 => 'required',
 				'transportercode' => 'required',
 				'unitcode' => 'required',
+				'wb_in' => 'required',
 				// 'npk_driver' => 'required',
 			])) {
 				return $this->returnErrorInvalidate();
@@ -1507,8 +1515,14 @@ class Timbang extends BaseController
 			$post['operator_out'] = session()->get('name');
 			$post['updated_at'] = date('Y-m-d');
 			$where = array('chitnumber'=>$post['chitnumber'],'status'=>'0','weight_out'=>'0');
-			$trWbModel->update($where, $post);
-
+			$update=array('wb_out'=>$post['wb_out'],
+						 'weight_out'=>$post['weight_out'] ,
+						 'operator_out'=>session()->get('name'),
+						 'update_at'=>date('Y-m-d'),
+						 'status'=>'1'
+						);
+			// $trWbModel->update($where, $post);
+			$trWbModel->update($where, $update);
 			helper('Andre_helper');
 			$andre = new Andre();
 			$andre->save(session()->get('email'), 'Pending Transaction', 'update', $post);

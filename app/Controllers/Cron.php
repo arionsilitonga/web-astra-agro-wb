@@ -78,7 +78,7 @@ class Cron extends Controller {
 				'tr_wb.kab_prop',
 				'tr_wb.kab_createdate',
 				'tr_wb.kab_createby',
-				'tr_wb.jjg_ext',
+				// 'tr_wb.jjg_ext',
 			]);
 		
 		if ($chitnumber != null) {
@@ -253,6 +253,7 @@ class Cron extends Controller {
 				'tr_wb.kab_prop',
 				'tr_wb.kab_createdate',
 				'tr_wb.kab_createby',
+				'tr_wb.keterangan',
 				'tr_wb.jjg_ext',
 			]);
 		
@@ -296,7 +297,7 @@ class Cron extends Controller {
 			$api_response = $this->postAPIWb($tr_wb);
 			//print_r($api_response);die();
 			echo $tr_wb['chitnumber'] . ' => ' . PHP_EOL;
-			echo print_r($tr_wb);
+			//echo print_r($tr_wb);
 			
 			if ($api_response['success']) {
 				$TrWbModel->update($tr_wb['chitnumber'], ['sent' => 'Y']);

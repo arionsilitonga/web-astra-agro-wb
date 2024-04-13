@@ -169,7 +169,7 @@ function getPending(chitOnTrans){
 			$('#timbang-kab_type').val(response.tr_wb.kab_type);
 			$('select#timbang-CustomerCode').val(response.tr_wb.customercode);
 			$('select#timbang-CustomerCode').change();
-
+				
 			if (response.tr_wb.kab_type == 'EXTERNAL'){
 				setTbsExternal();
 				$('input#timbang-NomorTicket').val(response.tr_wb.nomorticket);
@@ -802,7 +802,7 @@ $('#get-NFC-button').on('click', function() {
 				if (msg.invalid=='jam boarding'){
 					alert('Kartu Tidak Lengkap!.\nAnda Belum Boarding');
 				}else{
-					alert('Kartu Tidak Lengkap atau Belum Melakukan Boarding!.\nSilahkan TAP Ulang kartu atau Buat KAB ulang');
+					alert('Kartu Tidak Lengkap atau Belum Melakukan Boarding!.\nSilahkan TAP Ulang kartu atau Buat KAB ulang pada Aplikasi Boarding');
 					kartuError = true;
 				}
 				

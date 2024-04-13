@@ -231,7 +231,7 @@ $weight_in = $tr_wb['weight_in'] ?? 0;
 							<div class="form-group row">
 								<label for="timbang-WightIn" class="col-sm-4 col-form-label">Weight</label>
 								<div class="col-sm-5">
-									<input type="text" readonly name="weight_in"  value="<?= number_format($tr_wb['weight_in'] ?? 0, 0, ',', '.') ?>" id="timbang-WeightIn" class="form-control">
+									<input type="text"  name="weight_in"  value="<?= number_format($tr_wb['weight_in'] ?? 0, 0, ',', '.') ?>" id="timbang-WeightIn" class="form-control">
 								</div>
 								<div class="col-sm-3">
 									<button type="button" id="btn_setwbin"  class="btn btn-sm btn-success" <?= ($weight_in == 0) ? 'onclick="set_wb_in()"' : 'disabled' ?>>
@@ -255,7 +255,7 @@ $weight_in = $tr_wb['weight_in'] ?? 0;
 							<div class="form-group row">
 								<label for="timbang-WightOut" class="col-sm-4 col-form-label">Weight</label>
 								<div class="col-sm-5">
-									<input type="text" readonly name="weight_out"   value="<?= number_format($tr_wb['weight_out'] ?? 0, 0, ',', '.') ?>" id="timbang-WeightOut" class="form-control">
+									<input type="text"  name="weight_out"   value="<?= number_format($tr_wb['weight_out'] ?? 0, 0, ',', '.') ?>" id="timbang-WeightOut" class="form-control">
 								</div>
 								<div class="col-sm-3">
 									<button type="button" disabled id="btn_setwbout"  <?= (!key_exists('chitnumber', $tr_wb) || $tr_wb['chitnumber'] == null) ? 'disabled' : '' ?> class="btn btn-sm btn-success" onclick="set_wb_out()"><i class="fas fa-stopwatch"></i> Set</button>
