@@ -117,13 +117,13 @@ $weight_in = $tr_wb['weight_in'] ?? 0;
 						<span><sub>Kg</sub></span>
 					</div>
 				</div>
-				<div class="col-md-4" style="margin-top: -20px;">
+				<!--<div class="col-md-4" style="margin-top: -20px;">
 					<label for="timbang-Netto">Netto</label>
 					<div class="text-center form-control weight-indicator">
 						<input id="timbang-Netto" type="text" name="netto" value="<?= $tr_wb['netto'] ?? '' ?>">
 						<span><sub>Kg</sub></span>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		</div>
 		<div class="col-md-6">
