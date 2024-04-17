@@ -1491,7 +1491,9 @@ class Timbang extends BaseController
 				$total_jjg = $total_jjg+$noc['jjg'];
 			}
 		}
-		$post['jjg_ext']=$total_jjg;
+		if ($post['transactiontype'] == static::transaksiTBSInternal['value']){
+			$post['jjg_ext']=$total_jjg;
+		}
 		//print_r($post);die();
 		/** Simpan Data */
 		$trWbModel = new TrWbModel();					
